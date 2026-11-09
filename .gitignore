@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+backend/venv/
+backend/.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database / local app data
+*.sqlite3
+*.db
+*.log
+logs/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Build outputs
+build/
+dist/
+coverage/
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker / local runtime
+.docker/
+.pids/
+
+# Local archive of unused files (not part of the source tree)
+.archive-unused/
+
+# Generated architecture-diagram workspace
+.archify/
+
+# Secret keys / generated config
+*.pem
+*.key
+*.crt
+
+# Python packaging
+*.egg-info/
+.eggs/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Local uploads / temp
+uploads/
+tmp/
+.temp/
+# Framework/build caches
+.next/
+*.tsbuildinfo
